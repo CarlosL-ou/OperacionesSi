@@ -29,6 +29,5 @@ public class Main {
         int[] vector = {4,2,4,6};
         int resultado3 = operaciones.sumarVector(vector);    
         System.out.println(resultado3);        
-    }
-    
+    }    
 }
