@@ -18,7 +18,7 @@ public class Main {
         Operaciones operaciones = new Operaciones();
         
         //prueba sumarPar:
-        int resultado = operaciones.sumarPar(4,4);    
+        int resultado = operaciones.sumarPar(4,-1);    
         System.out.println(resultado);
         
         //prueba mayor:

@@ -50,9 +50,45 @@ public class OperacionesTest {
         int b = 4;
         int resultado = instance.sumarPar(a, b);
         
-        int expResult = 4;        
+        int expResult = 8;        
         assertEquals(expResult, resultado);      
     }
+    @Test
+    public void testSumarImpar() {
+        System.out.println("sumarImpar");
+        Operaciones instance = new Operaciones();
+        
+        int a = 4;
+        int b = 3;
+        int resultado = instance.sumarPar(a, b);
+        
+        int expResult = 8;        
+        assertEquals(expResult, resultado);      
+    }
+    @Test
+    public void testSumarImparNeg() {
+        System.out.println("sumarImpar");
+        Operaciones instance = new Operaciones();
+        
+        int a = -3;
+        int b = -4;
+        int resultado = instance.sumarPar(a, b);
+        
+        int expResult = -6;        
+        assertEquals(expResult, resultado);      
+    }    
+    @Test
+    public void testSumarParNeg() {
+        System.out.println("sumarImpar");
+        Operaciones instance = new Operaciones();
+        
+        int a = -2;
+        int b = -4;
+        int resultado = instance.sumarPar(a, b);
+        
+        int expResult = -6;        
+        assertEquals(expResult, resultado);      
+    }        
     /**
      * Test of mayor method, of class Operaciones.
      */
